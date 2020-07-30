@@ -45,7 +45,7 @@ h1 {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	background-color: rgba(47, 48, 58, 0.8);
+	/*background-color: rgba(47, 48, 58, 0.8);*/
 	color: var(--light-text);
 }
 
@@ -113,8 +113,10 @@ footer {
 
 .flexbox {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .site-nav {
@@ -158,10 +160,19 @@ footer {
 .navigation {
 	display: flex;
 	align-items: center;
+	margin-right: auto;
 }
 
 .menu-item:not(:last-child) {
 	margin-right: 50px;
+}
+
+.header-contacts {
+	display: inline-block;
+}
+
+.header-contacts:not(:first-child) {
+	margin-left: 50px;
 }
 
 .menu-link {
@@ -188,6 +199,16 @@ footer {
 .menu-contacts:hover,
 .menu-contacts:focus {
 	color: #2196f3;
+}
+
+.hero {
+	background-color: rgba(47, 48, 58, 0.8);
+	width: 1600px;
+	height: 600px;
+}
+
+.banner {
+	padding: 200 200;
 }
 
 .btn {
