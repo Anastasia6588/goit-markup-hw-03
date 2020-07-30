@@ -32,6 +32,11 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.navigation {
+	display-flex
+	}
+
 h1 {
 	font-family: Roboto;
 	font-weight: 900;
@@ -51,6 +56,10 @@ header {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--base-color);
+}
+
+.page-header {
+	background: #ffffff;
 }
 
 h2 {
