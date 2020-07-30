@@ -34,8 +34,8 @@ html {
 }
 
 .navigation {
-	display-flex
-	}
+	display-flex;
+}
 
 h1 {
 	font-family: Roboto;
