@@ -33,9 +33,9 @@ html {
 	margin-right: auto;
 }
 
-.navigation {
-	display-flex;
-}
+/*.navigation {
+	display: flex;
+}*/
 
 h1 {
 	font-family: Roboto;
@@ -111,8 +111,21 @@ footer {
 	background: #2f303a;
 }
 
+.flexbox {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.site-nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
 .logo {
 	text-decoration: none;
+	margin-right: 85px;
 }
 
 .logo-web {
@@ -141,6 +154,16 @@ footer {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
+
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+.menu-item:not(:last-child) {
+	margin-right: 50px;
+}
+
 .menu-link {
 	color: var(--base-color);
 	text-decoration: none;
