@@ -81,6 +81,7 @@ h3 {
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 a {
@@ -106,6 +107,7 @@ p {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--contact-color);
+	margin: 0px;
 }
 
 footer {
@@ -208,14 +210,15 @@ footer {
 }
 
 .banner {
-	display: flex;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
+	text-align: center;
 	width: 1600px;
 	height: 600px;
 	padding-top: 200px;
 }
 .page-title {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .btn {
@@ -231,10 +234,19 @@ footer {
 	letter-spacing: 0.06em;
 	color: var(--light-text);
 	/*display: inline-block;*/
+	border-radius: 4px;
+	padding: 10px 32px;
+}
+.advantage {
+	padding-top: 94px;
+	padding-bottom: 94px;
 }
 
 .advantege-list {
 	display: flex;
+}
+
+.advantage-item {
 }
 
 .list-item {
@@ -247,6 +259,8 @@ footer {
 	text-transform: uppercase;
 	background: rgba(47, 48, 58, 0.8);
 	color: var(--base-color);
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .team-title {
