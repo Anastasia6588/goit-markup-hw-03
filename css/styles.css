@@ -71,6 +71,8 @@ h2 {
 	letter-spacing: 0.03em;
 	text-align: center;
 	color: var(--base-color);
+	margin-top: 0px;
+	margin-bottom: 50px;
 }
 
 h3 {
@@ -81,7 +83,7 @@ h3 {
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin: 0px 0px;
 }
 
 a {
@@ -108,6 +110,9 @@ p {
 	letter-spacing: 0.03em;
 	color: var(--contact-color);
 	margin: 0px;
+}
+img {
+	display: block;
 }
 
 footer {
@@ -217,6 +222,7 @@ footer {
 	height: 600px;
 	padding-top: 200px;
 }
+
 .page-title {
 	margin-bottom: 30px;
 }
@@ -237,16 +243,15 @@ footer {
 	border-radius: 4px;
 	padding: 10px 32px;
 }
-/*.advantage {
-	display: flex;
+.advantage {
 	padding-top: 94px;
 	padding-bottom: 94px;
-	flex-direction: row;
-}*/
+}
 
-.advantege-list {
+.advantage-list {
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
 }
 
 .advantage-item {
@@ -257,7 +262,20 @@ footer {
 	margin-right: 30px;
 }
 
-.advantage-item:nth-child(4n + 1) {
+.advantage-item:last-child {
+	margin-right: 0px;
+}
+
+.specification-list {
+	display: flex;
+	width: calc((100% - 60px) / 3);
+}
+
+.specification-item {
+	margin-right: 30px;
+}
+
+.specification-item:last-child {
 	margin-right: 0px;
 }
 
@@ -270,9 +288,24 @@ footer {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	background: rgba(47, 48, 58, 0.8);
-	color: var(--base-color);
-	margin-top: 30px;
-	margin-bottom: 10px;
+	color: var(--light-text);
+}
+
+.about-us {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.team-list-box {
+	margin-right: 30px;
+}
+
+.team-list-box:last-child {
+	margin-right: 0px;
+}
+
+.team-list-box:first-child {
+	margin-left: 0px;
 }
 
 .team-title {
@@ -284,6 +317,9 @@ footer {
 	letter-spacing: 0.03em;
 	color: var(--base-color);
 	text-transform: capitalize;
+}
+.team-list {
+	display: flex;
 }
 
 .team-item {
