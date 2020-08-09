@@ -237,16 +237,28 @@ footer {
 	border-radius: 4px;
 	padding: 10px 32px;
 }
-.advantage {
+/*.advantage {
+	display: flex;
 	padding-top: 94px;
 	padding-bottom: 94px;
-}
+	flex-direction: row;
+}*/
 
 .advantege-list {
 	display: flex;
+	justify-content: flex-start;
 }
 
 .advantage-item {
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	align-items: flex-start;
+	margin-right: 30px;
+}
+
+.advantage-item:nth-child(4n + 1) {
+	margin-right: 0px;
 }
 
 .list-item {
