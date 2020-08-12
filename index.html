@@ -17,7 +17,7 @@
 			<header class="page-header">
 				<div class="container flexbox">
 					<nav class="navigation">
-						<div class="logo">
+						<div class="logo-header">
 							<a href="./index.html">
 								<span class="logo-web">Web</span>
 								<span class="logo-studio-header">Studio</span>
@@ -54,7 +54,7 @@
 				<ul class="advantage-list">
 					<li class="advantage-item">
 						<img src="./images/logo/antenna.svg" alt="antenna" />
-						<h3>Внимание к деталям</h3>
+						<h3 class="advantage-title">Внимание к деталям</h3>
 						<p>
 							Идейные соображения, а также начало повседневной работы по формированию позиции.
 						</p>
@@ -62,7 +62,7 @@
 
 					<li class="advantage-item">
 						<img src="./images/logo/clock.svg" alt="clock" />
-						<h3>Пунктуальность</h3>
+						<h3 class="advantage-title">Пунктуальность</h3>
 						<p>
 							Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 						</p>
@@ -70,17 +70,15 @@
 
 					<li class="advantage-item">
 						<img src="./images/logo/diagram.svg" alt="diagram" />
-						<h3>Планирование</h3>
-						<p>
-							Равным образом консультация с широким активом в значительной степени обуславливает.
+						<h3 class="advantage-title">Планирование</h3>
+						<p>Равным образом консультация с широким активом в значительной степени обуславливает.
 						</p>
 					</li>
 
 					<li class="advantage-item">
 						<img src="./images/logo/astronaut.svg" alt="cosmo" />
-						<h3>Современные технологии</h3>
-						<p>
-							Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+						<h3 class="advantage-title">Современные технологии</h3>
+						<p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.
 						</p>
 					</li>
 				</ul>
@@ -230,7 +228,9 @@
 
 		<footer>
 			<div class="container footer-box">
-			<div class="logo">
+			<div class="address-box">
+			<div class="address-list">
+			<div class="logo-footer">
 				<a href="./index.html">
 					<span class="logo-web">Web</span>
 					<span class="logo-studio-footer">Studio</span>
@@ -239,10 +239,12 @@
 			<address>
 				<p class="address">г.Киев, пр-т Леси Украинки, 26</p>
 				<ul>
-					<li><a class="menu-contacts" href="mailto:info@example.com">info@example.com</a></li>
+					<li class="address-item"><a class="menu-contacts" href="mailto:info@example.com">info@example.com</a></li>
 					<li><a class="menu-contacts" href="tel:+380991111111">+38 099 111 11 11</a></li>
 				</ul>
 			</address>
+			</div>
+			<div class="connection">
 			<b class="join">Присоединяйтесь</b>
 			<ul class="join-list">
 				<li>
@@ -258,8 +260,17 @@
 					<a class="social-link" href="" aria-label="link-linkedin.svg">link-linkedin</a>
 				</li>
 			</ul>
-			<div class="subscribe">
+			</div>
+			</div>
+				<div class="feedback-form">
+				<div class="subscribe">
 				<b class="mailing">Подпишитесь на рассылку</b>
+				<p class="e-mail-input">E-mail</p>
+				</div>
+				<div class="feedback">
+				<button type="button" class="btn">Подписаться</button>
+				</div>
+			</div>
 			</div>
 			</div>
 		</footer>
