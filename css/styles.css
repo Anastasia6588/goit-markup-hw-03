@@ -587,4 +587,7 @@ footer {
 	line-height: 1.87;
 	letter-spacing: 0.03em;
 	color: var(--contact-color);
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 20px;
 }
