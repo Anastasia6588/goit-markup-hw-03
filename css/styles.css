@@ -43,6 +43,7 @@ header {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--base-color);
+	border-bottom: 1px solid #ececec;
 }
 
 .page-header {
@@ -99,7 +100,6 @@ p {
 	color: var(--contact-color);
 	margin-block-start: 0px;
 	margin-block-end: 0px;
-	/*margin: 0px;*/
 }
 
 ul {
@@ -252,10 +252,7 @@ footer {
 }
 
 .advantage-item {
-	/*display-flex;*/
-	/*flex-direction: column;*/
 	width: 270px;
-	/*align-items: flex-start;*/
 	margin-right: 30px;
 }
 
@@ -268,9 +265,12 @@ footer {
 	margin-right: 0px;
 }
 
+.specification {
+	padding-bottom: 94px;
+}
+
 .specification-list {
 	display: flex;
-	/*width: calc((100% - 60px) / 3);*/
 }
 
 .specification-item {
@@ -300,7 +300,6 @@ footer {
 }
 
 .team-list {
-	width: calc((100% - 90px) / 4);
 	margin-inline-end: 0px;
 }
 
@@ -342,7 +341,7 @@ footer {
 	color: #757575;
 	margin-block-start: 0px;
 	margin-block-end: 0px;
-	margin-bottom: 84px;
+	margin-bottom: 16px;
 }
 
 .social-list {
@@ -502,7 +501,11 @@ footer {
 
 .product-menu {
 	padding-top: 94px;
-	padding-bottom: 50px;
+	padding-bottom: 94px;
+}
+
+.menu-button {
+	margin-bottom: 50px;
 }
 
 .product-menu-list {
@@ -539,10 +542,6 @@ footer {
 .filter-button:focus {
 	background: var(--accent-color);
 	color: var(--light-text);
-}
-
-.portfolio {
-	padding-bottom: 94px;
 }
 
 .portfolio-list {
